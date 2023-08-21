@@ -1,0 +1,324 @@
+/* ANA HISSE */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(129deg, rgb(168, 232, 73), #2fda35, #1ed38e);
+}
+
+/* LOG IN HISSE */
+
+h1 {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 15em;
+    letter-spacing: 0.2em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.box .inp0 {
+    position: absolute;
+    margin-top: 8em;
+    margin-left: 16em;
+    padding-left: 5vh;
+    padding-top: 1.5vh;
+    width: 1%;
+    height: 2em;
+    letter-spacing: 0.1em;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.box .inp0:hover {
+    background: linear-gradient(129deg, rgb(168, 232, 73), #1ed38e, #2fda35);
+}
+
+.box .yazzi {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 8.7em;
+    margin-left: 19.5em;
+    font-size: small;
+}
+
+.circle {
+    transition: 1s all;
+    display: none;
+    position: absolute;
+    width: 80px;
+    height: 75px;
+    margin-top: 5em;
+    margin-left: 28em;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 1px 1px 10px black;
+}
+
+.box {
+    position: relative;
+    border: none;
+    height: 25em;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 7em;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.box input {
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px black;
+    height: 3em;
+    padding-left: 1em;
+    letter-spacing: 0.1em;
+    background: transparent;
+}
+
+.box input::placeholder {
+    background: transparent;
+}
+
+.box .inp1 {
+    margin-top: 14em;
+}
+
+.box .inp2 {
+    margin-top: 1.5em;
+}
+
+.box button {
+    transition: 0.2s all;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 2em;
+    height: 3em;
+    letter-spacing: 0.1em;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    border: 1px solid black;
+}
+
+.box button:hover {
+    background: linear-gradient(129deg, rgb(168, 232, 73), #1ed38e, #2fda35);
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+/* MESSAGE HISSE */
+
+.fcu {
+    margin-top: 2em;
+}
+
+.messageBox {
+    display: none;
+    width: 100%;
+    height: 94.45vh;
+    background: linear-gradient(129deg, rgb(168, 232, 73), #2fda35, #1ed38e);
+}
+
+.messageBox .message {
+    overflow: scroll;
+    margin-top: 1em;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 1.5em;
+    padding-left: 2em;
+    padding-top: 1em;
+    width: 80%;
+    margin: 0 auto;
+    height: 25em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.message p {
+    box-shadow: 1px 1px 10px black;
+    border-radius: 1.5em;
+    width: 90%;
+    height: 1.5em;
+    padding-top: 4px;
+    padding-left: 1em;
+    margin-top: 1.5vh;
+    margin-left: 4rem;
+}
+
+.message b {
+    font-size: 20px;
+    color: blue;
+}
+
+.gondermek {
+    margin-top: 2em;
+    width: 80%;
+    border-radius: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3.5em;
+}
+
+.gondermek #rightText {
+    width: 47rem;
+    height: 3em;
+    border-radius: 1.5em;
+    background: transparent;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 1vh;
+    margin-left: 7vh;
+    padding-left: 5vh;
+    letter-spacing: 0.2em;
+    border: none;
+}
+
+.gondermek #rightText::placeholder {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gondermek #sendBtn {
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 2em;
+    height: 3em;
+    width: 7rem;
+    border-radius: 1.5em;
+    cursor: pointer;
+    background: transparent;
+}
+
+.gondermek #sendBtn:hover {
+    background: linear-gradient(129deg, rgb(168, 232, 73), #1ed38e, #2fda35);
+    border: 1px solid white;
+    color: white;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .cinp {
+    position: absolute;
+    width: 100%;
+    height: 4em;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .cinp .inp0 {
+    margin: 0 auto;
+
+}
+
+.container .cinp .circle {
+    margin: 0 auto;
+}
+
+.box input {
+    width: 90%;
+}
+
+@media (max-width: 991px) {
+
+
+    .container {
+        margin-top: 20vh;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .container h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+    .box {
+        width: 90%;
+        margin-top: 2em;
+    }
+
+
+    .container .cinp {
+        position: absolute;
+        width: 100%;
+        height: 4em;
+        margin-top: 5em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container .cinp .inp0 {
+        margin: 0 auto;
+
+    }
+
+    .container .cinp .circle {
+        margin: 0 auto;
+    }
+
+    .box input {
+        width: 90%;
+    }
+
+    .box button {
+        width: 40%;
+        margin-top: 1em;
+    }
+
+    .messageBox {
+        height: 100vh;
+        margin-top: em;
+        overflow: hidden;
+    }
+
+    .messageBox .message {
+        width: 90%;
+        padding: 1em;
+        overflow-y: scroll;
+    }
+
+    .message p {
+        width: 80%;
+    }
+
+    .gondermek {
+        width: 100%;
+
+    }
+
+    .gondermek #rightText {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .gondermek #sendBtn {
+        width: 100%;
+        margin: 3em auto;
+    }
+}
